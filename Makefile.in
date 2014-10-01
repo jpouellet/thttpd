@@ -103,6 +103,7 @@ subdirs:
 		CGIBINDIR=$(CGIBINDIR) \
 		MANDIR=$(MANDIR) \
 		WEBGROUP=$(WEBGROUP) \
+		DESTDIR=$(DESTDIR) \
 	) ; done
 
 
@@ -125,6 +126,7 @@ installsubdirs:
 		CGIBINDIR=$(CGIBINDIR) \
 		MANDIR=$(MANDIR) \
 		WEBGROUP=$(WEBGROUP) \
+		DESTDIR=$(DESTDIR) \
 		install \
 	) ; done
 
