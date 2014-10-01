@@ -72,6 +72,7 @@ install:	all
 	chmod 2755 $(DESTDIR)$(BINDIR)/makeweb
 	cp htpasswd $(DESTDIR)$(BINDIR)/htpasswd
 	cp syslogtocern $(DESTDIR)$(BINDIR)/syslogtocern
+	-mkdir -p $(DESTDIR)$(MANDIR)/man1
 	rm -f $(DESTDIR)$(MANDIR)/man1/makeweb.1
 	cp makeweb.1 $(DESTDIR)$(MANDIR)/man1/makeweb.1
 	rm -f $(DESTDIR)$(MANDIR)/man1/htpasswd.1
