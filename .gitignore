@@ -1,0 +1,15 @@
+*.o
+Makefile
+cgi-src/Makefile
+cgi-src/phf
+cgi-src/redirect
+cgi-src/ssi
+config.cache
+config.log
+config.status
+extras/Makefile
+extras/htpasswd
+extras/makeweb
+mime_encodings.h
+mime_types.h
+thttpd
